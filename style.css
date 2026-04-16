@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #111;
+    border-bottom: 2px solid #FFD700;
+}
+
+.logo-text {
+    color: #FFD700;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Hero */
+#home {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Layout */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+}
+
+/* Text */
+#home {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Layout Fix */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    width: 100%;
+}
+
+/* LEFT TEXT FIX */
+.home-text {
+    max-width: 500px;
+    text-align: left;   /* IMPORTANT FIX */
+}
+
+.home-text h1 {
+    font-size: 55px;
+}
+
+.home-text span {
+    color: #FFD700;
+}
+
+.home-text p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+/* BUTTONS FIX */
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 20px;
+    background: #FFD700;
+    color: black;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.btn-outline {
+    padding: 12px 20px;
+    border: 2px solid #FFD700;
+    color: #FFD700;
+    border-radius: 25px;
+}
+
+/* SOCIAL FIX */
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    margin-right: 15px;
+    font-weight: bold;
+    color: #FFD700;
+}
+.socials a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #FFD700;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+/* IMAGE FIX (IMPORTANT) */
+.home-image img {
+    width: 320px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/* Buttons */
+.btn {
+    background: #FFD700;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-outline {
+    border: 2px solid #FFD700;
+    color: #FFD700;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Socials */
+.socials a {
+    margin-right: 10px;
+    color: #FFD700;
+}
+
+/* Image */
+.home-image img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Projects */
+.project {
+    border: 1px solid #FFD700;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+}
